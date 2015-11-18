@@ -44,3 +44,8 @@ group :development, :test do
   gem 'spring'
 end
 
+# Additional files for CI demo
+gem "haml-rails"
+gem "ci_reporter_rspec"
+gem 'rspec-rails'
+gem 'capybara'
