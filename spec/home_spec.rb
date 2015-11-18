@@ -1,9 +1,9 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe 'home page' do
-  it 'welcomes the user' do
-    visit '/'
-    page.should have_content('Welcome')
+RSpec.feature "Home Page", :type => :feature do
+  scenario "User visits the home page" do
+    visit "/"
+
+    expect(page).to have_text("Hello, Rails!")
   end
 end
-
