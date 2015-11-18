@@ -1,3 +1,6 @@
 Gemfile.lock
 *.swp
 *.swo
+db/test.sqlite3
+log/*
+

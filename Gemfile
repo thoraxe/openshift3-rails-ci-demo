@@ -49,3 +49,4 @@ gem "haml-rails"
 gem "ci_reporter_rspec"
 gem 'rspec-rails'
 gem 'capybara'
+gem 'sqlite3' # for testing
