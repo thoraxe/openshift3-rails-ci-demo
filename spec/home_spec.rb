@@ -5,5 +5,6 @@ RSpec.feature "Home Page", :type => :feature do
     visit "/"
 
     expect(page).to have_text("Hello, Rails!")
+    expect(page).to have_link("My Blog", :href => "/articles")
   end
 end
